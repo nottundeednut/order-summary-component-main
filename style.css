@@ -1,21 +1,64 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body{
   font-family: 'Red Hat Display', sans-serif;
   font-size: 16px;
+  color: lightgrey;
   background-color: hsl(225, 100%, 94%);
 }
 
 .container{
   width: 80%;
-  margin: 0 auto;
+  max-width: 375px;
+  margin: 20% auto;
   border-radius: 20px;
-  background-color: hsl(225, 100%, 98%);
+  background-color: white;
+  text-align: center;
+  height: 100%;
 }
 
 img{
   width: 100%;
+  margin-bottom: 30px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
+
+h1, .plan h4{
+  margin-bottom: 30px;
+  color: black;
+}
+span{
+  color: lightgrey;
+}
+
+p{
+  line-height: 1.5em;
+  margin-bottom: 30px;
+}
+
+.plan{
+  border: 1px solid hsl(225, 100%, 98%);
+  border-radius: 7px;
+  width: 80%;
+  height: 100%;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  justify-content: center;
+}
+.plan img{
+  width: 40px;
+  flex: 1;
+}
+button{
+  margin: 10px;
+  border-radius: 7px;
+  padding: 5px;
+}
+

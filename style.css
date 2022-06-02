@@ -8,6 +8,8 @@ body{
   font-family: 'Red Hat Display', sans-serif;
   font-size: 16px;
   color: lightgrey;
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
   background-color: hsl(225, 100%, 94%);
 }
 
@@ -61,4 +63,21 @@ button{
   border-radius: 7px;
   padding: 5px;
 }
+.proceed{
+  width: 80%;
+  padding: 15px;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  font-weight: 700;
+  border:none;
+}
+.cancel{
+  border:none;
+  color: gainsboro;
+  font-weight: bolder;
+  background-color: white;
+}
 
+button:hover, a:hover{
+  cursor: pointer;
+}
